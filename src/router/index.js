@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Catalog from '../pages/Catalog.vue'
+import HomeView from '../pages/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', component: Catalog }
+    { path: '/', component: HomeView }
   ]
 })
 
