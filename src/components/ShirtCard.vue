@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="shirt.image" alt="" class="card-img-top" />
+    <img :src="`${import.meta.env.BASE_URL}${shirt.image}`" alt="" class="card-img-top" />
     <div class="card-body">
       <h3 class="card-title">{{ shirt.name }}</h3>
       <p class="card-price">${{ shirt.price }}</p>

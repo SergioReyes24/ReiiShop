@@ -1,7 +1,7 @@
 [
-  { "id": 1, "name": "Rei Classic", "price": 350, "image": "/ReiD.png" },
-  { "id": 2, "name": "Rei Plush", "price": 420, "image": "/shirt2.png" },
-  { "id": 3, "name": "Rei Luxe", "price": 480, "image": "/shirt3.png" },
-  { "id": 4, "name": "Rei Elite", "price": 550, "image": "/shirt4.png" },
-  { "id": 5, "name": "Rei Supreme", "price": 620, "image": "/shirt5.png" }
+  { "id": 1, "name": "Dios Ama a Rei", "price": 350, "image": "ReiD.png" },
+  { "id": 2, "name": "Rei Plush", "price": 420, "image": "shirt2.png" },
+  { "id": 3, "name": "Rei Luxe", "price": 480, "image": "shirt3.png" },
+  { "id": 4, "name": "Rei Elite", "price": 550, "image": "shirt4.png" },
+  { "id": 5, "name": "Rei Supreme", "price": 620, "image": "shirt5.png" }
 ]
