@@ -16,7 +16,6 @@
 <script setup>
 import { computed, ref, onMounted } from 'vue'
 import ShirtCard from '../components/ShirtCard.vue'
-import shirtsData from '../assets/shirts.json'
 
 const props = defineProps({
   search: { type: String, required: true },
@@ -25,8 +24,9 @@ const props = defineProps({
 
 const shirts = ref([])
 
-onMounted(() => {
-  shirts.value = shirtsData
+onMounted(async () => {
+  const res = await fetch('/ReiiShop/shirts.json')  // Ajusta aquí según tu base
+  shirts.value = await res.json()
 })
 
 const filteredShirts = computed(() =>

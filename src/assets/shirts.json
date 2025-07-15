@@ -1,7 +1,0 @@
-[
-  { "id": 1, "name": "Dios Ama a Rei", "price": 350, "image": "/ReiiShop/ReiD.png" },
-  { "id": 2, "name": "Rei Plush", "price": 420, "image": "/ReiiShop/shirt2.png" },
-  { "id": 3, "name": "Rei Luxe", "price": 480, "image": "/ReiiShop/shirt3.png" },
-  { "id": 4, "name": "Rei Elite", "price": 550, "image": "/ReiiShop/shirt4.png" },
-  { "id": 5, "name": "Rei Supreme", "price": 620, "image": "/ReiiShop/shirt5.png" }
-]
