@@ -4,7 +4,7 @@
 
     <header class="header-bar">
       <RouterLink to="/" class="logo-link">
-        <img src="/ReiiShop/logo.png" alt="Rei Store Logo" class="logo" />
+        <img :src="logoUrl" alt="Rei Store Logo" class="logo" />
       </RouterLink>
       <div class="filters">
         <input
@@ -32,6 +32,7 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterView, RouterLink } from 'vue-router'
+const logoUrl = `${import.meta.env.BASE_URL}logo.png`
 
 const search = ref('')
 const priceRange = ref(1000)
