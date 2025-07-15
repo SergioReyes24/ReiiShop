@@ -20,7 +20,6 @@
 <script setup>
 const { shirt } = defineProps(['shirt'])
 
-// Corrige la ruta quitando el "/" inicial si existe
 const imageUrl = `${import.meta.env.BASE_URL}${shirt.image.replace(/^\//, '')}`
 
 const buyWhatsApp = () => {

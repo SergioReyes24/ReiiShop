@@ -25,7 +25,7 @@ const props = defineProps({
 const shirts = ref([])
 
 onMounted(async () => {
-  const res = await fetch('/ReiiShop/shirts.json')  // Ajusta aquí según tu base
+  const res = await fetch(`${import.meta.env.BASE_URL}shirts.json`)
   shirts.value = await res.json()
 })
 

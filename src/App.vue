@@ -4,7 +4,7 @@
 
     <header class="header-bar">
       <RouterLink to="/" class="logo-link">
-        <img src="/logo.png" alt="Rei Store Logo" class="logo" />
+        <img src="/ReiiShop/logo.png" alt="Rei Store Logo" class="logo" />
       </RouterLink>
       <div class="filters">
         <input
@@ -12,7 +12,6 @@
           placeholder="Buscar camisa..."
           class="filter-input"
           type="search"
-          aria-label="Buscar camisas"
         />
         <input
           type="range"
@@ -21,7 +20,6 @@
           step="10"
           v-model="priceRange"
           class="filter-range"
-          aria-label="Filtrar por precio máximo"
         />
         <span class="price-label">Hasta ${{ priceRange }}</span>
       </div>
