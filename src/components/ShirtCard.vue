@@ -36,10 +36,8 @@ const buyWhatsApp = () => {
   justify-content: center;
   gap: 8px;
 }
-
 .whatsapp-icon {
   width: 20px;
   height: 20px;
-  vertical-align: middle;
 }
 </style>

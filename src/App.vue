@@ -26,14 +26,18 @@
     </header>
 
     <RouterView :search="search" :maxPrice="priceRange" />
+
+    <button class="floating-logo-btn" aria-label="Rei Store">
+      <img :src="logoUrl" alt="Rei Store Logo" class="floating-logo-img" />
+    </button>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { RouterView, RouterLink } from 'vue-router'
-const logoUrl = `${import.meta.env.BASE_URL}logo.png`
 
+const logoUrl = `${import.meta.env.BASE_URL}logo.png`
 const search = ref('')
 const priceRange = ref(1000)
 </script>
