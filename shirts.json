@@ -1,4 +1,8 @@
 [
   { "id": 1, "name": "Dios Ama a Rei", "price": 350, "image": "ReiD.webp" },
-  { "id": 2, "name": "Mama Jochis", "price": 350, "image": "MamaM.webp" }
+  { "id": 2, "name": "Mama Jochis Mujer", "price": 350, "image": "MamaMG.webp" },
+  { "id": 2, "name": "Bajate YeriMua", "price": 350, "image": "BajateC.webp" },
+  { "id": 2, "name": "Con Dislexia", "price": 350, "image": "Dislexia.webp" },
+  { "id": 2, "name": "Nací en Estos Juegos", "price": 350, "image": "Nacer.webp" },
+  { "id": 2, "name": "Buscando Oro Yeri", "price": 350, "image": "YeriO.webp" }
 ]
